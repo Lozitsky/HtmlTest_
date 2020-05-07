@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<header id="header" style="text-align: center">
+    This is header!
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#section_1">Секция о разметке текста</a></li>
+        <li><a href="#section_2">Секция формы</a></li>
+        <li><a href="#adv_section">Advertising section</a></li>
+        <li><a href="#section_3">Блочные и строчные элементы</a></li>
+        <li><a href="#audio_section">Audio section</a></li>
+        <li><a href="#progress_bar_section">Progress bar section</a></li>
+        <li><a href="#footer_section">Footer section</a></li>
+        <li><a href="#table_section">Table Example</a></li>
+    </ul>
+</nav>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 align="center">Заголовок h1 по центру</h1>
+<section id="section_1">
+    <h2>Секция о разметке текста</h2>
+    <p align="right">Параграф справа</p>
+    <p align="justify">А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+        А этот текст обтекается и справа и слева. Текст большой...
+    </p>
+    <br>
+    <p>Этот текст без атрибутов. Но, там какая-то невидимая линия сверху.</p>
+    <p class="red-text centered-text">
+        Красный параграф по центру
+        <i> и часть строки курсивом </i>
+    </p>
+    <ol>
+        <li>
+            <a href="SecondPage.html"><b>Big Smile Emotion</b></a>
+        </li>
+        <li>
+            <a href="ThirdPage.html"><b>Rabbit</b></a>
+        </li>
+    </ol>
+
+    <ul class="red-text">
+        <li>
+            <a href="SecondPage.html"><b>Big Smile Emotion</b></a>
+        </li>
+        <li>
+            <a href="ThirdPage.html"><b>Rabbit</b></a>
+        </li>
+    </ul>
+
+</section>
+
+<section id="section_2">
+
+    <h2>Секция форма</h2>
+
+    <form action="ThirdPage.html" method="post" class="border-form">
+        <section class="form-row">
+            <div class="form-row">
+                <input type="text" placeholder="Обычный текст" required>
+            </div>
+            <div class="form-row">
+                <input type="password" placeholder="Пароль" required>
+            </div>
+        </section>
+        <section class="form-row">
+            <label class="form-row">
+                email:
+            </label>
+            <div class="form-row">
+                <input type="email" placeholder="my_email@example.com" align="right" required>
+            </div>
+        </section>
+        <section class="form-row">
+            <label class="form-row">
+                telephone:
+            </label>
+            <div class="form-row">
+                <input type="tel" placeholder="+38 012 3456789">
+            </div>
+        </section>
+        <section class="form-row">
+            <label class="form-row">
+                url address:
+            </label>
+            <div class="form-row">
+                <input type="url" placeholder="my_site.com">
+            </div>
+        </section>
+        <section class="form-row">
+            <input type="search">
+        </section>
+        <section class="form-row">
+            <input type="text" list="names">
+            <datalist id="names">
+                <option value="John">
+                <option value="Nick">
+                <option value="Steve">
+            </datalist>
+        </section>
+        <br>
+        <br>
+        <div class="form-row">
+            <input type="file" placeholder="Find file">
+        </div>
+        <br>
+        <br>
+        <div class="form-row">
+            <input type="submit" placeholder="Отправить!">
+        </div>
+
+    </form>
+
+</section>
+
+<section id="adv_section">
+    <aside>
+        <div align="right">
+            <form class="border-form">
+                advertising block
+            </form>
+        </div>
+    </aside>
+</section>
+
+<section id="section_3">
+    <h2>Секция о блочных и строчных элементах</h2>
+    <div class="traffic-lights">
+        <!--    <div class="red-text">
+                red
+            </div>
+            <div class="yellow-text">
+                green
+            </div>
+            <div class="green-text">
+                blue
+            </div>-->
+        <h2 class="red-text">red</h2>
+        <h2 class="yellow-text">yellow</h2>
+        <h2 class="green-text">green</h2>
+    </div>
+</section>
+
+<section id="audio_section">
+    <h2>Секция музыки</h2>
+
+    <audio src="usatyy-nyan-usatyy-nyan.mp3" controls loop>
+        Sorry music is not supported...
+    </audio>
+    <audio src="usatyy-nyan--bez-nazvaniya.mp3" controls preload="metadata">
+        Sorry music is not supported...
+    </audio>
+</section>
+
+<section id="section_video">
+    <h2>Секция видео</h2>
+    <video width="400" controls autoplay>
+        <source src="https://www.videvo.net/videvo_files/converted/2015_06/preview/Notre_Dame_pm_FS_20150610_03_Videvo.mov30715.webm"
+                type="video/mp4">
+        <!--        <source src="Notre_Dame.mov" type="video/mp4">-->
+        Видео не поддерживается Вашим браузером...
+    </video>
+    <video width="400" controls autoplay>
+        <source src="https://player.vimeo.com/external/344276246.sd.mp4?s=8d7a9e80cc16ddbdae48a98532e4683893737cd5&profile_id=139&oauth2_token_id=57447761"
+                type="video/mp4">
+        Sorry this video is not supported on your browser...
+    </video>
+</section>
+
+<section id="progress_bar_section">
+    <h2>Секция индикатор выполнения</h2>
+    <h3>Мои навыки:</h3>
+    <p>
+        Готовка:
+        <progress min="0" max="100" value="35"></progress>
+        35/100
+    </p>
+    <p>
+        Плаванье:
+        <progress min="0" max="100" value="65"></progress>
+        65/100
+    </p>
+    <p>
+        Фехтование:
+        <progress min="0" max="100" value="82"></progress>
+        82/100
+    </p>
+</section>
+
+<!-- https://www.bitdegree.org/learn/html-tr -->
+<!-- https://www.w3docs.com/learn-html/html-tr-tag.html -->
+<section id="table_section">
+    <h2>Table</h2>
+    <div class="form-row">
+        <img class="" src="java-seeklogo.com.svg" width="156" alt="Java emblem">
+        <table class="table-base">
+            <caption><h3>Phone book</h3></caption>
+            <tr>
+                <th>Name</th>
+                <th>Telephone</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>0441234567</td>
+            </tr>
+            <tr>
+                <td>Ivan</td>
+                <td>0501234567</td>
+            </tr>
+            <tr>
+                <td>Ruslan</td>
+                <td>0631234567</td>
+            </tr>
+        </table>
+    </div>
+
+</section>
+
+
+<footer id="footer_section">
+    This is footer!
+</footer>
+
+</body>
+<style>
+    .red-text {
+        color: deeppink;
+    }
+
+    .yellow-text {
+        color: lightgoldenrodyellow;
+    }
+
+    .green-text {
+        color: mediumspringgreen;
+    }
+
+    .centered-text {
+        text-align: center;
+    }
+
+    .border-form {
+        background-color: lightgray;
+        border: 2px solid black;
+        width: max-content;
+    }
+
+    .form-row {
+        flex-direction: row;
+        padding: 5px;
+        display: flex;
+    }
+
+    .field-align {
+        /*text-align: right;*/
+        display: block;
+    }
+
+    .traffic-lights {
+        font-size: 24px;
+        font-family: Arial, serif;
+        background-color: darkgrey;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid lightslategrey;
+    }
+
+    .table-base {
+        width: 80%;
+        margin: 30px auto;
+        border-collapse: collapse;
+    }
+
+    .align-base {
+        padding: 5px;
+    }
+</style>
+</html>
