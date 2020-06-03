@@ -2,6 +2,63 @@
 <html lang="en">
 <header id="header" style="text-align: center">
     This is header!
+    <style>
+        .red-text {
+            color: deeppink;
+        }
+
+        .yellow-text {
+            color: lightgoldenrodyellow;
+        }
+
+        .green-text {
+            color: mediumspringgreen;
+        }
+
+        .centered-text {
+            text-align: center;
+        }
+
+        .border-canvas {
+            background-color: lightgray;
+            border: 2px solid black;
+            width: max-content;
+        }
+
+        .form-row {
+            flex-direction: row;
+            padding: 5px;
+            display: flex;
+        }
+
+        .field-align {
+            /*text-align: right;*/
+            display: block;
+        }
+
+        .traffic-lights {
+            font-size: 24px;
+            font-family: Arial, serif;
+            background-color: darkgrey;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid lightslategrey;
+        }
+
+        .table-base {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+
+        .align-base {
+            padding: 5px;
+        }
+    </style>
+
 </header>
 
 <nav>
@@ -65,7 +122,7 @@
 
     <h2>Секция форма</h2>
 
-    <form action="ThirdPage.html" method="post" class="border-form">
+    <form action="ThirdPage.html" method="post" class="border-canvas">
         <section class="form-row">
             <div class="form-row">
                 <input type="text" placeholder="Обычный текст" required>
@@ -127,7 +184,7 @@
 <section id="adv_section">
     <aside>
         <div align="right">
-            <form class="border-form">
+            <form class="border-canvas">
                 advertising block
             </form>
         </div>
@@ -155,10 +212,10 @@
 <section id="audio_section">
     <h2>Секция музыки</h2>
 
-    <audio src="usatyy-nyan-usatyy-nyan.mp3" controls loop>
+    <audio src="../audio/usatyy-nyan-usatyy-nyan.mp3" controls loop>
         Sorry music is not supported...
     </audio>
-    <audio src="usatyy-nyan--bez-nazvaniya.mp3" controls preload="metadata">
+    <audio src="../audio/usatyy-nyan--bez-nazvaniya.mp3" controls preload="metadata">
         Sorry music is not supported...
     </audio>
 </section>
@@ -179,7 +236,7 @@
 </section>
 
 <section id="progress_bar_section">
-    <h2>Секция индикатор выполнения</h2>
+    <h2>Секция индикатора выполнения</h2>
     <h3>Мои навыки:</h3>
     <p>
         Готовка:
@@ -203,7 +260,7 @@
 <section id="table_section">
     <h2>Table</h2>
     <div class="form-row">
-        <img class="" src="java-seeklogo.com.svg" width="156" alt="Java emblem">
+        <img class="" src="../img/java-seeklogo.com.svg" width="156" alt="Java emblem">
         <table class="table-base">
             <caption><h3>Phone book</h3></caption>
             <tr>
@@ -233,60 +290,4 @@
 </footer>
 
 </body>
-<style>
-    .red-text {
-        color: deeppink;
-    }
-
-    .yellow-text {
-        color: lightgoldenrodyellow;
-    }
-
-    .green-text {
-        color: mediumspringgreen;
-    }
-
-    .centered-text {
-        text-align: center;
-    }
-
-    .border-form {
-        background-color: lightgray;
-        border: 2px solid black;
-        width: max-content;
-    }
-
-    .form-row {
-        flex-direction: row;
-        padding: 5px;
-        display: flex;
-    }
-
-    .field-align {
-        /*text-align: right;*/
-        display: block;
-    }
-
-    .traffic-lights {
-        font-size: 24px;
-        font-family: Arial, serif;
-        background-color: darkgrey;
-        text-align: center;
-    }
-
-    th, td {
-        padding: 10px;
-        border: 1px solid lightslategrey;
-    }
-
-    .table-base {
-        width: 80%;
-        margin: 30px auto;
-        border-collapse: collapse;
-    }
-
-    .align-base {
-        padding: 5px;
-    }
-</style>
 </html>
